@@ -1,4 +1,4 @@
-name: Fetch and Process sonsstreams
+name: Fetch and Process tta2
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Run script
-        run: python fetch_sonsstreams.py
+        run: python fetch_tta2.py
 
       - name: Commit and force-push changes
         run: |
